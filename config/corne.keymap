@@ -13,27 +13,27 @@
         default_layer {
             bindings = <
                 &kp ESCAPE  &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y    &kp U      &kp I      &kp O    &kp P     &kp BSPC
-                &kp LSHFT   &kp A  &kp S  &kp D     &kp F      &kp G        &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+                &kp TILDE   &kp A  &kp S  &kp D     &kp F      &kp G        &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
                 &kp LCTRL   &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp END
-                                        &kp LALT  &mo LOWER  &kp SPACE    &kp RET  &mo RAISE  &kp LGUI
+                                        &kp LSHFT  &kp SPACE  &mo LOWER   &mo RAISE  &kp LGUI   &kp RET
             >;
         };
 
         lower_layer {
             bindings = <
                 &kp TAB   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5         &kp N6   &kp N7   &kp N8   &kp N9    &kp N0    &kp DELETE
-                &kp LSHFT &kp LC(A) &kp LC(S) &kp LC(D) &kp LC(F) &trans         &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp COLON &kp DOUBLE_QUOTES
-                &kp LCTRL &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &trans         &trans &trans &kp LESS_THAN &kp GREATER_THAN &kp QUESTION &trans
-                                              &kp LALT  &trans  &kp SPACE       &kp BACKSPACE  &trans  &kp LGUI
+                &trans    &kp LC(A) &kp LC(S) &kp LC(D) &kp LC(F) &trans         &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp COLON &kp DOUBLE_QUOTES
+                &trans    &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &trans         &trans &trans &kp LESS_THAN &kp GREATER_THAN &kp QUESTION &trans
+                                              &trans    &trans     &trans       &trans  &trans &trans
             >;
         };
 
         raise_layer {
             bindings = <
                 &kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-                &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-                &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                            &kp LALT  &trans    &kp SPACE    &kp RET    &trans     &kp LGUI
+                &trans     &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &trans
+                &trans     &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &trans
+                                            &trans  &trans    &trans    &trans    &trans     &trans
             >;
         };
     };
