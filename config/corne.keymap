@@ -33,8 +33,8 @@
             bindings = <
 &kp GRAVE          &trans     &kp EXCL  &kp AT           &kp HASH   &trans      &trans     &trans     &trans    &trans    &trans    &trans
 &ext_power EP_ON   &trans     &kp DLLR  &kp PRCNT        &kp CARET  &trans      &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &trans
-&ext_power EP_OFF  &sys_reset &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &trans
-                                     &trans           &trans     &trans      &trans     &trans     &trans
+&ext_power EP_OFF  &sys_reset &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &sys_reset
+                                        &trans           &trans     &trans      &trans     &trans     &trans
             >;
         };
     };
