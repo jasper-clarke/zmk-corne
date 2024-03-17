@@ -12,28 +12,28 @@
 
         default_layer {
             bindings = <
-                &kp ESCAPE  &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y    &kp U      &kp I      &kp O    &kp P     &kp BSPC
-                &kp TILDE   &kp A  &kp S  &kp D     &kp F      &kp G        &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-                &kp LCTRL   &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp END
+                &kp ESCAPE  &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y    &kp U      &kp I      &kp O     &kp SEMI  &kp BSPC
+                &kp TILDE   &kp A  &kp S  &kp D     &kp F      &kp G        &kp H    &kp J      &kp K      &kp L     &kp FSLH  &kp SQT
+                &kp LCTRL   &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N    &kp M      &kp P      &kp COMMA &kp DOT   &kp END
                                         &kp LSHFT  &kp SPACE  &mo LOWER   &mo RAISE  &kp LGUI   &kp RET
             >;
         };
 
         lower_layer {
             bindings = <
-                &kp TAB   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5         &kp N6   &kp N7   &kp N8   &kp N9    &kp N0    &kp DELETE
-                &trans    &kp LC(A) &kp LC(S) &kp LC(D) &kp LC(F) &trans         &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp COLON &kp DOUBLE_QUOTES
-                &trans    &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &trans         &trans &trans &kp LESS_THAN &kp GREATER_THAN &kp QUESTION &trans
-                                              &trans    &trans     &trans       &trans  &trans &trans
+                &kp TAB   &trans    &kp N1    &kp N2    &kp N3    &trans         &trans   &trans   &trans   &trans    &trans    &kp DELETE
+                &trans    &kp LSHFT &kp N4    &kp N5    &kp N6    &trans         &kp LEFT &kp DOWN &kp UP   &kp RIGHT &trans    &trans
+                &trans    &trans    &kp N7    &kp N8    &kp N9    &kp N0         &trans   &trans   &trans   &trans    &trans    &trans
+                                               &trans    &trans    &trans       &trans  &trans &trans
             >;
         };
 
         raise_layer {
             bindings = <
-                &kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-                &trans     &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &trans
-                &trans     &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &trans
-                                            &trans  &trans    &trans    &trans    &trans     &trans
+                &kp GRAVE  &trans    &kp EXCL  &kp AT          &kp HASH  &trans       &trans    &trans    &trans   &trans    &trans    &trans
+                &trans     &trans    &kp DLLR  &kp PRCNT       &kp CARET &trans       &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH  &trans
+                &trans     &trans    &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR      &kp UNDER &kp PLUS  &kp LBRC &kp RBRC  &kp PIPE  &trans
+                                                         &trans  &trans    &trans    &trans    &trans     &trans
             >;
         };
     };
