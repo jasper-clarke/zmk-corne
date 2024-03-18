@@ -22,18 +22,18 @@
 
         lower_layer {
             bindings = <
-&kp TAB  &trans     &kp N1  &kp N2  &kp N3  &trans    &trans    &trans    &trans  &trans     &trans  &kp DELETE
-&trans   &kp LSHFT  &kp N4  &kp N5  &kp N6  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans   &trans     &kp N7  &kp N8  &kp N9  &kp N0    &trans    &trans    &trans  &trans     &trans  &trans
+&kp TAB   &trans     &kp N1  &kp N2  &kp N3  &trans    &trans    &trans    &trans  &trans     &trans  &kp DELETE
+&kp GRAVE &kp LSHFT  &kp N4  &kp N5  &kp N6  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans    &trans     &kp N7  &kp N8  &kp N9  &kp N0    &trans    &trans    &trans  &trans     &trans  &trans
                             &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&kp GRAVE          &trans     &kp EXCL  &kp AT           &kp HASH   &trans      &trans     &trans     &trans    &trans    &trans    &trans
+&sys_reset         &trans     &kp EXCL  &kp AT           &kp HASH   &trans      &trans     &trans     &trans    &trans    &trans    &sys_reset
 &ext_power EP_ON   &trans     &kp DLLR  &kp PRCNT        &kp CARET  &trans      &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &trans
-&ext_power EP_OFF  &sys_reset &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &sys_reset
+&ext_power EP_OFF  &trans     &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &trans
                                         &trans           &trans     &trans      &trans     &trans     &trans
             >;
         };
