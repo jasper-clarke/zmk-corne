@@ -12,6 +12,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Base";
             bindings = <
                 &kp ESCAPE  &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y    &kp U      &kp I      &kp O     &kp SEMI  &kp BSPC
                 &kp TILDE   &kp A  &kp S  &kp D     &kp F      &kp G        &kp H    &kp J      &kp K      &kp L     &kp FSLH  &kp SQT
@@ -21,6 +22,7 @@
         };
 
         lower_layer {
+            display-name = "Lower";
             bindings = <
 &kp TAB   &bt BT_CLR_ALL     &kp N1  &kp N2  &kp N3  &trans    &trans    &trans    &trans  &trans     &trans  &kp DELETE
 &kp GRAVE &kp LSHFT  &kp N4  &kp N5  &kp N6  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
@@ -30,6 +32,7 @@
         };
 
         raise_layer {
+            display-name = "Raise";
             bindings = <
 &sys_reset &trans     &kp EXCL  &kp AT           &kp HASH   &trans      &trans     &trans     &trans    &trans    &trans    &sys_reset
 &trans     &trans     &kp DLLR  &kp PRCNT        &kp CARET  &trans      &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &trans
