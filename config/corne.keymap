@@ -18,7 +18,7 @@
 &kp ESCAPE    &kp Q  &kp W  &kp E      &kp R      &kp T        &kp Y      &kp U     &kp I    &kp O      &kp SEMI  &kp BSPC
 &kp LEFT_ALT  &kp A  &kp S  &kp D      &kp F      &kp G        &kp H      &kp J     &kp K    &kp L      &kp FSLH  &kp SQT
 &kp LCTRL     &kp Z  &kp X  &kp C      &kp V      &kp B        &kp N      &kp M     &kp P    &kp COMMA  &kp DOT   &kp END
-                            &kp LSHFT  &kp SPACE  &mo LOWER    &mo RAISE  &kp LGUI  &kp RET
+                            &mt LSHFT CAPSLOCK  &kp SPACE  &mo LOWER    &mo RAISE  &kp LGUI  &kp RET
             >;
         };
 
